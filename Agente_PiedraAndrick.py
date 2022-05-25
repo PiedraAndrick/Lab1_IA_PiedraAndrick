@@ -97,6 +97,9 @@ def airConditioning_world():
               print("Calentando Habitacion 3")
               estado_global['Habitacion 3'] = '0' 
               costo += 1
-    
+     # Terminando
+    print("GOAL STATE: ")
+    print(estado_global)
+    print("Performance Measurement: " + str(costo))
 
 airConditioning_world()
